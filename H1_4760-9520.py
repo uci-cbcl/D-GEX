@@ -38,21 +38,21 @@ def main():
     
     print 'loading data...'
     
-    X_tr = np.load(open('bgedv2_X_tr_float64.npy'))
-    Y_tr = np.load(open('bgedv2_Y_tr_4760-9520_float64.npy'))
+    X_tr = np.load('bgedv2_X_tr_float64.npy')
+    Y_tr = np.load('bgedv2_Y_tr_4760-9520_float64.npy')
     Y_tr_target = np.array(Y_tr)
-    X_va = np.load(open('bgedv2_X_va_float64.npy'))
-    Y_va = np.load(open('bgedv2_Y_va_4760-9520_float64.npy'))
+    X_va = np.load('bgedv2_X_va_float64.npy')
+    Y_va = np.load('bgedv2_Y_va_4760-9520_float64.npy')
     Y_va_target = np.array(Y_va)
-    X_te = np.load(open('bgedv2_X_te_float64.npy'))
-    Y_te = np.load(open('bgedv2_Y_te_4760-9520_float64.npy'))
+    X_te = np.load('bgedv2_X_te_float64.npy')
+    Y_te = np.load('bgedv2_Y_te_4760-9520_float64.npy')
     Y_te_target = np.array(Y_te)
 
-    X_1000G = np.load(open('1000G_X_float64.npy'))
-    Y_1000G = np.load(open('1000G_Y_4760-9520_float64.npy'))
+    X_1000G = np.load('1000G_X_float64.npy')
+    Y_1000G = np.load('1000G_Y_4760-9520_float64.npy')
     Y_1000G_target = np.array(Y_1000G)
-    X_GTEx = np.load(open('GTEx_X_float64.npy'))
-    Y_GTEx = np.load(open('GTEx_Y_4760-9520_float64.npy'))
+    X_GTEx = np.load('GTEx_X_float64.npy')
+    Y_GTEx = np.load('GTEx_Y_4760-9520_float64.npy')
     Y_GTEx_target = np.array(Y_GTEx)
 
     
