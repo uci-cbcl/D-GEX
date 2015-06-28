@@ -83,6 +83,14 @@ The 1000 Genomes RNA-Seq expression data can be accessed from [EMBL-EBI](http://
 
 PREPROCESS
 ==========
+The whole preprocessing can be done by run
+```
+$ ./preprocess.sh
+```
+
+Specifically, there are three steps.
+
+1. Removing duplicates by k-means: `kmeans.py·
 
 
 
