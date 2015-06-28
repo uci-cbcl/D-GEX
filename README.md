@@ -59,6 +59,7 @@ PREREQUISITES
 
 DATA
 ====
+The original data files are not provided within this codebase, as some of them require applying for access. Once you download all of them, please put them in this codebase.
 
 GEO
 ---
