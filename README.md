@@ -90,7 +90,10 @@ $ ./preprocess.sh
 
 Specifically, there are three steps.
 
-1. Removing duplicates by k-means: `kmeans.py·
+1. Removing duplicates by k-means: `kmeans.py`, `nodup_idx.py`.
+2. Coverting data into numpy format: `bgedv2.py`, `GTEx.py`, `1000G.py`.
+3. Quantile normalization: `bgedv2_reqnorm.py`, `GTEx_reqnorm.py`, `1000G_reqnorm.py`.
+4. Standardization: `bgedv2_norm.py`, `GTEx_norm.py`, `1000G_norm.py`.
 
 
 
