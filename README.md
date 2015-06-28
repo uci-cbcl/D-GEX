@@ -30,7 +30,7 @@ on different platforms of expression data. This code base provides all
 the necessary pieces to reproduce the main results of D-GEX.
 
 
-Prerequisites
+PREREQUISITES
 =============
 * Python (2.7). [Python 2.7.6](http://www.python.org/download/releases/2.7.6/) is recommended.
 
