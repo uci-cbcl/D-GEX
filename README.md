@@ -36,12 +36,15 @@ Prerequisites
 
 * Python (2.7). [Python 2.7.6](http://www.python.org/download/releases/2.7.6/) is recommended.
 
-* [Numpy](http://www.numpy.org/)(>=1.6.1). You can download the source of Numpy from [here](http://sourceforge.net/projects/numpy/files/).
+* [Numpy](http://www.numpy.org/)(>=1.6.1). 
 
-* [Scipy](http://www.scipy.org/)(>=0.10). You can download the source of Scipy from [here](http://sourceforge.net/projects/scipy/files/).
+* [Scipy](http://www.scipy.org/)(>=0.10). 
 
-* [Theano](http://deeplearning.net/software/theano/)(0.7). You can download the source of Theano from [here](https://github.com/Theano/Theano/releases).
+* [Theano](http://deeplearning.net/software/theano/)(0.7).
 
 * [Pylearn2](https://github.com/lisa-lab/pylearn2).
 
-*  
+* [Scikit-learn](http://scikit-learn.org/stable/)(>=0.15.2).
+
+* [l1ktools](https://github.com/cmap/l1ktools).
+
