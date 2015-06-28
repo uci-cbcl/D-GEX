@@ -46,3 +46,21 @@ PREREQUISITES
 
 * [l1ktools](https://github.com/cmap/l1ktools).
 
+
+
+DATA
+====
+
+GEO
+---
+The GEO microarray expression data can be accessed from [lincscloud](http://www.lincscloud.org/l1000/). You need to [apply](https://docs.google.com/forms/d/1j6Vb_s4FrDodxoS3IDZsHWoVNrOnKNQbqwbwcW2a208/viewform) for the access. The original data downloaded is **bgedv2_QNORM.gctx** (data level 3 Q2NORM).
+
+
+GTEx
+----
+The GTEx RNA-Seq expression data can be accessed from [GTEx Portal](http://www.gtexportal.org/home/). You need to apply through dbGaP [phs000424.v3.p1](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000424.v3.p1) for the access. The original data downloaded is **GTEx_RNASeq_RPKM_n2921x55993.gctx**.
+
+1000G
+-----
+The 1000 Genomes RNA-Seq expression data can be accessed from [EMBL-EBI](http://www.ebi.ac.uk/arrayexpress/experiments/E-GEUV-1/files/analysis_results/?ref=E-GEUV-1). The original data downloaded is **GD462.GeneQuantRPKM.50FN.samplename.resk10.txt**.
+
