@@ -30,6 +30,11 @@ on different platforms of expression data. This code base provides all
 the necessary pieces to reproduce the main results of D-GEX.
 
 
+
+
+
+
+
 PREREQUISITES
 =============
 * Python (2.7). [Python 2.7.6](http://www.python.org/download/releases/2.7.6/) is recommended.
@@ -48,6 +53,9 @@ PREREQUISITES
 
 
 
+
+
+
 DATA
 ====
 
@@ -63,4 +71,16 @@ The GTEx RNA-Seq expression data can be accessed from [GTEx Portal](http://www.g
 1000G
 -----
 The 1000 Genomes RNA-Seq expression data can be accessed from [EMBL-EBI](http://www.ebi.ac.uk/arrayexpress/experiments/E-GEUV-1/files/analysis_results/?ref=E-GEUV-1). The original data downloaded is **GD462.GeneQuantRPKM.50FN.samplename.resk10.txt**.
+
+
+
+
+
+
+
+
+PREPROCESS
+==========
+
+
 
