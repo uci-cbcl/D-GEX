@@ -130,9 +130,9 @@ We obtain:
 
 **9000_H1_0-4760_75_bestva_Y_te_hat.npy**, the Y_te_hat predicted by best performance on Y_va (GEO microarray data).
 
-**9000_H1_0-4760_75_best1000G_model.pkl**, the model saved by best performance on Y_va (GEO microarray data).
+**9000_H1_0-4760_75_best1000G_model.pkl**, the model saved by best performance on Y_1000G (1000G RNA-Seq data).
 
-**9000_H1_0-4760_75_best1000G_Y_1000G_hat.npy**, the Y_1000G_hat predicted by best performance on Y_1000G (GEO microarray data).
+**9000_H1_0-4760_75_best1000G_Y_1000G_hat.npy**, the Y_1000G_hat predicted by best performance on Y_1000G (1000G RNA-Seq data).
 
-**9000_H1_0-4760_75_best1000G_Y_GTEx_hat.npy**, the Y_GTEx_hat predicted by best performance on Y_va (GEO microarray data).
+**9000_H1_0-4760_75_best1000G_Y_GTEx_hat.npy**, the Y_GTEx_hat predicted by best performance on Y_1000G (1000G RNA-Seq data).
 
