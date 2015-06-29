@@ -122,7 +122,7 @@ Each training instance will output 7 files. For example, by running
 ```
 $ ./ H1_0-4760.py 9000_H1_0-4760_75 200 9000 0.75
 ```
-We obtain:
+It outputs:
 
 **9000_H1_0-4760_75.log**, the log file of the training instance.
 
