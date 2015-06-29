@@ -26,7 +26,9 @@ on the RNA-Seq data of the Genotype-Tissue Expression show that
 deep learning with regularization techniques still outperforms linear
 regression with 6.57% relative improvement and achieves lower error
 in 81.31% of the target genes, even training and prediction were done
-on different platforms of expression data. This code base provides all
+on different platforms of expression data. 
+
+This code base provides all
 the necessary pieces to reproduce the main results of D-GEX. If you have any 
 questions, please email yil8@uci.edu
 
