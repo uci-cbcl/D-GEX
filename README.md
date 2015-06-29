@@ -110,3 +110,29 @@ $ ./ H1_0-4760.py 9000_H1_0-4760_75 200 9000 0.75
 In which, **9000_H1_0-4760_75** is the base name for all the output files.
 
 
+
+
+
+
+OUTPUT
+======
+Each training instance will output 7 files. For example, by running 
+```
+$ ./ H1_0-4760.py 9000_H1_0-4760_75 200 9000 0.75
+```
+We obtain:
+
+**9000_H1_0-4760_75.log**, the log file of the training instance.
+
+**9000_H1_0-4760_75_bestva_model.pkl**, the model saved by best performance on Y_va (GEO microarray data).
+
+**9000_H1_0-4760_75_bestva_Y_va_hat.npy**, the Y_va_hat predicted by best performance on Y_va (GEO microarray data).
+
+**9000_H1_0-4760_75_bestva_Y_te_hat.npy**, the Y_te_hat predicted by best performance on Y_va (GEO microarray data).
+
+**9000_H1_0-4760_75_best1000G_model.pkl**, the model saved by best performance on Y_va (GEO microarray data).
+
+**9000_H1_0-4760_75_best1000G_Y_1000G_hat.npy**, the Y_1000G_hat predicted by best performance on Y_1000G (GEO microarray data).
+
+**9000_H1_0-4760_75_best1000G_Y_GTEx_hat.npy**, the Y_GTEx_hat predicted by best performance on Y_va (GEO microarray data).
+
