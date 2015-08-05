@@ -6,38 +6,33 @@ INTRODUCTION
 
 Large-scale gene expression profiling has been widely
 used to characterize cellular states in response to various disease
-conditions, genetic perturbations, drug treatments, and so on.
-Although the cost of whole-genome expression profiling has been
-dropping steadily, generating a compendium of expression profiling
-over thousands of samples is still too expensive to be carried out
-by typical labs. Recognizing that gene expressions are often highly
-correlated, researchers from the NIH LINCS program have developed
-a cost-effective strategy of profiling only  ̃1,000 carefully selected
-genes (called landmark genes) and relying on computational methods
-to infer the expression of remaining genes (called target genes).
-Under this approach, millions of expression profiles have been
-generated. However, the approach adopted by the LINCS program to
-infer gene expression is currently based on linear regression, limiting
-its accuracy since it does not capture complex nonlinear relationship
-between expression of genes. We present a deep learning method (abbreviated as D-
-GEX) to infer the expression of target genes from the expression
-of landmark genes. We used a compendium of gene expression
-data from Gene Expression Omnibus (GEO), consisting of 111K
-microarray-based expression profiles, to train our model and compare
-its performance to those from other methods. In terms of mean
-absolute error averaged across all genes, the deep learning based
-approach significantly outperforms linear regression with 15.33%
-relative improvement. A gene-wise comparative analysis shows that
-deep learning achieves lower error than linear regression in 99.97%
-of the target genes. To check the robustness of our model across
-different profiling platforms, We also tested the performance of our
-learned model on an independent dataset from GTEx, which consists
-of 2,921 gene expression profiles obtained by RNA-Seq. D-GEX
-still outperforms linear regression on the GTEx dataset with 6.57%
-relative improvement, and achieves lower error in 81.31% of the
-target genes. Overall, our results suggest that the deep learning
-based method provides a better alternative than linear regression for
-modelling the complex relationship between expression of genes.
+conditions, genetic perturbations and so on. Although the cost
+of whole-genome expression profiling has been dropping steadily,
+generating a compendium of expression profiling over thousands of
+samples is still very expensive. Recognizing that gene expressions
+are often highly correlated, researchers from the NIH LINCS program
+have developed a cost-effective strategy of profiling only ˜1,000
+carefully selected landmark genes and relying on computational
+methods to infer the expression of remaining target genes. However,
+the computational approach adopted by the LINCS program is
+currently based on linear regression, limiting its accuracy since it
+does not capture complex nonlinear relationship between expression
+of genes.
+
+We present a deep learning method (abbreviated as DGEX)
+to infer the expression of target genes from the expression
+of landmark genes. We used the microarray-based GEO dataset,
+consisting of 111K expression profiles, to train our model and
+compare its performance to those from other methods. In terms
+of mean absolute error averaged across all genes, deep learning
+significantly outperforms linear regression with 15.33% relative
+improvement. A gene-wise comparative analysis shows that deep
+learning achieves lower error than linear regression in 99.97% of the
+target genes. We also tested the performance of our learned model
+on an independent RNA-Seq-based GTEx dataset, which consists
+of 2,921 expression profiles. Deep learning still outperforms linear
+regression with 6.57% relative improvement, and achieves lower error
+in 81.31% of the target genes.
 
 
 This code base provides all
