@@ -112,7 +112,7 @@ TRAINING
 ========
 Training D-GEX is done by run `H1_0-4760.py`, `H1_4760-9520.py`, `H2_0-4760.py`, `H2_4760-9520.py`, `H3_0-4760.py`, `H3_4760-9520.py`. Each stript trains half of the target genes (0-4760 or 4760-9520) with a certain architecture (1, 2 or 3 hidden layers).
 
-A training example using 200 epoch, 0.75 include rate (0.25 dropout rate) and 9000 hidden units within each hidden layer for 0-4760 target genes with 1 hidden layer is by:
+A training example using 200 epoch, 0.75 include rate (0.25 dropout rate) and 1 hidden layer with 9000 hidden units in each hidden layer for 0-4760 target genes is by:
 ```
 $ ./ H1_0-4760.py 9000_H1_0-4760_75 200 9000 0.75
 ```
