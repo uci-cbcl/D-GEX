@@ -17,7 +17,6 @@ import pylearn2.training_algorithms.learning_rule as p2_alg_lr
 import pylearn2.costs.mlp.dropout as p2_ct_mlp_dropout
 import pylearn2.termination_criteria as p2_termcri
 from numpy import dtype
-from matplotlib import pyplot as plt
 
 
 def main():
