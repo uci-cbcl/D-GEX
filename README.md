@@ -85,7 +85,7 @@ The 1000 Genomes RNA-Seq expression data can be accessed from [EMBL-EBI](http://
 
 L1000
 -----
-The predicted expression of L1000 data based on D-GEX can be downloaded at [l1000_n1328098x22268.gctx](https://cbcl.ics.uci.edu/public_data/D-GEX/l1000_n1328098x22268.gctx). It consists of 1328098 expression profiles of 22268 genes. The first 978 genes are landmark genes that were directly measured by the L1000 platform. The other 21290 genes are target genes infered by D-GEX based on GEO data. The expression profiles of each gene were standardized to mean 0 and standard deviation 1.
+The predicted expression of L1000 data based on D-GEX can be downloaded at [l1000_n1328098x22268.gctx](https://cbcl.ics.uci.edu/public_data/D-GEX/l1000_n1328098x22268.gctx). It consists of 1328098 expression profiles of 22268 genes. The first 978 genes are landmark genes that were directly measured by the L1000 platform. The other 21290 genes are target genes infered by D-GEX based on the GEO data. The expression profiles of each gene were standardized to mean 0 and standard deviation 1.
 
 
 
