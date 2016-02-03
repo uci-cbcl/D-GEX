@@ -149,3 +149,7 @@ It outputs:
 
 **9000_H1_0-4760_75_best1000G_Y_GTEx_hat.npy**, the Y_GTEx_hat predicted by best performance on Y_1000G (1000G RNA-Seq data).
 
+
+Reference
+=========
+Li, Y., Xie, X. (2016). Gene expression inference with deep learning. Bioinformatics.
