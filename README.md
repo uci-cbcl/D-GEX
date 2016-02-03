@@ -152,4 +152,4 @@ It outputs:
 
 Reference
 =========
-Li, Y., Xie, X. (2016). Gene expression inference with deep learning. Bioinformatics.
+Gene expression inference with deep learning. Bioinformatics (2016).
