@@ -77,7 +77,7 @@ The GEO microarray expression data can be accessed from [lincscloud](http://www.
 
 GTEx
 ----
-The GTEx RNA-Seq expression data can be accessed from [GTEx Portal](http://www.gtexportal.org/home/). You need to apply through dbGaP [phs000424.v3.p1](http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000424.v3.p1) for the access. The original data downloaded is **GTEx_RNASeq_RPKM_n2921x55993.gctx**.
+The GTEx data we used in our paper is a preliminary version from the Broad institute before the official publication of GTEx, and is not publicly available. For those who are interested in the data, please email us (yil8@uci.edu) with your basic information through an academic institute email address, and we will provide you the private download link.
 
 1000G
 -----
