@@ -72,12 +72,15 @@ The original data files are not provided within this codebase, as some of them r
 
 GEO
 ---
-The GEO microarray expression data can be accessed from [lincscloud](http://www.lincscloud.org/l1000/). You need to [apply](https://docs.google.com/forms/d/1j6Vb_s4FrDodxoS3IDZsHWoVNrOnKNQbqwbwcW2a208/viewform) for the access. The original data downloaded is **bgedv2_QNORM.gctx** (data level 3 Q2NORM).
+The GEO microarray expression data can be accessed from [lincscloud](http://www.lincscloud.org/l1000/). You need to [apply](https://docs.google.com/forms/d/1j6Vb_s4FrDodxoS3IDZsHWoVNrOnKNQbqwbwcW2a208/viewform) for the access. The original data downloaded is **bgedv2_QNORM.gctx** (data level 3 Q2NORM). 
+
+**UPDATE**: It seems lincscloud has been migrated to NCH: http://www.lincscloud.org/download.html . And the data is publicly available now at [GSE70138](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138):**GSE70138_Broad_LINCS_Level3_INF_mlr12k_n115209x22268_2015-12-31.gct.gz**. However, the number of samples is slightly different (129158 vs 115209). Not sure if the current code base works fine for this new data. Will take a look in the furture.
 
 
 GTEx
 ----
 The GTEx data we used in our paper is a preliminary version from the Broad institute before the official publication of GTEx, and is not publicly available. For those who are interested in the data, please email us (yil8@uci.edu) with your basic information through an academic institute email address, and we will provide you the private download link. The data you will download is **GTEx_RNASeq_RPKM_n2921x55993.gctx**.
+
 
 1000G
 -----
