@@ -59,7 +59,7 @@ PREREQUISITES
 
 * [Scikit-learn](http://scikit-learn.org/stable/)(>=0.15.2).
 
-* [l1ktools](https://github.com/cmap/l1ktools).
+* [l1ktools](https://github.com/cmap/l1ktools/releases/tag/v1.1) (v1.1). Please do not use later version as they changed the API.
 
 
 
