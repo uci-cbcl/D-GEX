@@ -157,4 +157,4 @@ It outputs:
 
 Reference
 =========
-Gene expression inference with deep learning. Bioinformatics (2016).
+Gene expression inference with deep learning, 2016. [Bioinformatics](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btw074), [bioRxiv](http://biorxiv.org/content/early/2015/12/15/034421).
