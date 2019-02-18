@@ -113,7 +113,7 @@ Training D-GEX is done by run `H1_0-4760.py`, `H1_4760-9520.py`, `H2_0-4760.py`,
 
 A training example using 200 epoch, 0.75 include rate (0.25 dropout rate) and 1 hidden layer with 9000 hidden units in each hidden layer for 0-4760 target genes is by:
 ```
-$ ./ H1_0-4760.py 9000_H1_0-4760_75 200 9000 0.75
+$ ./H1_0-4760.py 9000_H1_0-4760_75 200 9000 0.75
 ```
 In which, **9000_H1_0-4760_75** is the base name for all the output files.
 
@@ -126,7 +126,7 @@ OUTPUT
 ======
 Each training instance will output 7 files. For example, by running 
 ```
-$ ./ H1_0-4760.py 9000_H1_0-4760_75 200 9000 0.75
+$ ./H1_0-4760.py 9000_H1_0-4760_75 200 9000 0.75
 ```
 It outputs:
 
